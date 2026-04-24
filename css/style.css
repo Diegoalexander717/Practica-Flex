@@ -1,1 +1,34 @@
 /*Hoja de estilos */ 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: Flex; /* Modo flexbox*/
+    justify-content:  space-around; /*alineacion horizontal */
+    align-items:center; /*alineacion vertical*/
+    background-color: cornflowerblue; /* color de fondo */
+
+}
+nav img {
+     width: 150px; /*cambiamos el ancho de la imagen */
+     border-radius: 550px;
+}
+a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    font-weight: 500;/*grosor del texto*/
+    padding: 15px; /* espacio dentro del enlace*/
+    border-radius: 125px; /*bordes redondos */
+    transition: 0.6s; /*tiempo para volver al estado normal*/ 
+}
+
+nav a:hover {
+    background-color: deepskyblue; /*color de fondo al pasar el mouse*/
+    scale: 1.1; /*aumentar el tamaño del enlace al pasar el mouse*/
+    transition: 0.6; /*tiempo de duracion de la animacion */
+}
+
+
